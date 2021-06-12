@@ -85,7 +85,7 @@ router.put("/:id", (req, res) => {
 
 router.delete("/:id", (req, res) => {
     // delete on tag by its `id` value
-    Product.destroy({
+    Tag.destroy({
             where: {
                 id: req.params.id,
             },
@@ -93,7 +93,7 @@ router.delete("/:id", (req, res) => {
         .then((dbTagData) => {
             if (!dbTagData) {
                 res.status(404).json({
-                    message: "No product found with this id",
+                    message: "No tag found with this id",
                 });
                 return;
             }
