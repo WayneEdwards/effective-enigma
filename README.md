@@ -6,7 +6,7 @@ Build the back end for an e-commerce site. Take a working Express.js API and con
 
 ## Video Walkthroughs
 
-**Product Demo in Insomnia**
+**Products Demo in Insomnia**
 <media\Products Video Walkthrough Insomnia.webm>
 **Link to MyDrive:**<https://drive.google.com/file/d/1nfImGmEhRy0fu0p4uhHjSYQDzr7-5kmd/view>
 
